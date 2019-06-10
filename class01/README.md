@@ -115,3 +115,8 @@ There are many different types of exceptions included in the C# language. Here i
    - Online Research
    - ask a TA
    - Ask the instructor
+
+
+ ## Resources
+ 1. [Intro to C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)
+ 2. [Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions)
