@@ -37,7 +37,3 @@
 - Why do we need it
 - Readme's <-- What are they?
 - Proper Structure
-
-### Example Readme
-- [Sample Readme]("/sample-README.md")
- 
