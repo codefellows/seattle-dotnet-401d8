@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d8OOPPrinciples", "d8OOPPrinciples\d8OOPPrinciples.csproj", "{05047075-CA91-4602-AB17-7E0E652F1CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05047075-CA91-4602-AB17-7E0E652F1CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05047075-CA91-4602-AB17-7E0E652F1CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05047075-CA91-4602-AB17-7E0E652F1CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05047075-CA91-4602-AB17-7E0E652F1CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA5B1303-E3AA-476B-9AB4-4DDF7D9FA691}
+	EndGlobalSection
+EndGlobal
