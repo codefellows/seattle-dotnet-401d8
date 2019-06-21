@@ -20,8 +20,8 @@ namespace d8Class07Demo
             Console.WriteLine("Hello World!");
             //  BasicLinq();
             //   MethodCalls();
-           // GroupingByExample();
-            SetOpertends();
+           GroupingByExample();
+           // SetOpertends();
             #region Delegate Example
             // MyDelegate delly = new MyDelegate(MyMethod);
             // delly.Invoke();
