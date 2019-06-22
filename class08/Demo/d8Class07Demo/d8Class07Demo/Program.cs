@@ -198,12 +198,34 @@ namespace d8Class07Demo
 
         static void GroupingByExample()
         {
-            var words = new[] { "cat", "dog", "coffee", "phone", "apple", "marker", "clock" };
+            var words = new[] { "cat", "", "dog", "coffee", "", "phone", "apple", "", "marker", "clock" };
+
+            foreach (var item in words)
+            {
+                Console.WriteLine(item);
+            }
 
             var query = from word in words
                         group word by word.Length;
 
             var query2 = words.GroupBy(word => word.Length);
+
+            IEnumerable<string> query1 = words.Where(wr => wr != "");
+
+            Console.WriteLine("========Only Larger than 3========");
+            foreach (var item in query1)
+            {
+                Console.WriteLine(item);
+            }
+
+            var q2 = query1.Where(w => w.Contains("a"));
+
+            Console.WriteLine("========Only with A========");
+            foreach (var item in q2)
+            {
+                Console.WriteLine(item);
+            }
+
 
             foreach (var item in query)
             {
