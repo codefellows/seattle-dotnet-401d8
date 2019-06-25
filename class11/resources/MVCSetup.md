@@ -22,6 +22,7 @@ app.UseMvc(routes =>
 ```
 
 9. Add app.UseStaticFiles() under `Configure()` after mapping the route to allow the use of static files, such as css and js files.
+10. 10. Create a new folder in the project called "wwwroot"
 10. Create a new folder in the project called "Controllers"
 11. Create a new folder in the project called "Models"
 12. Create a new folder in the project called "Views"
