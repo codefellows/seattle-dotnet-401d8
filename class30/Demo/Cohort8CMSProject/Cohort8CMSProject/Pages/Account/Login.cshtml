@@ -1,0 +1,20 @@
+﻿@page
+@model Cohort8CMSProject.Pages.Account.LoginModel
+@{
+}
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Login Page</title>
+    </head>
+    <body>
+        <form method="post">
+            <label asp-for="Input.Email"></label>
+            <input asp-for="Input.Email" />
+
+            <label asp-for="Input.Password"></label>
+            <input type="password" asp-for="Input.Password" />
+
+            <button type="submit">Login</button>
+        </form>
+    </body>
+    </html>

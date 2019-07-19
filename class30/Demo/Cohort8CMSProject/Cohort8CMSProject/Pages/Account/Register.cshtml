@@ -1,0 +1,36 @@
+﻿@page
+@model Cohort8CMSProject.Pages.Account.RegisterModel
+@{
+}
+
+
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Register Page</title>
+    </head>
+    <body>
+        <form method="post">
+            <label asp-for="Input.Email"></label>
+            <input asp-for="Input.Email" />
+
+            <label asp-for="Input.FirstName"></label>
+            <input asp-for="Input.FirstName" />
+
+            <label asp-for="Input.LastName"></label>
+            <input asp-for="Input.LastName" />
+
+            <label asp-for="Input.Birthday"></label>
+            <input asp-for="Input.Birthday" />
+
+            <label asp-for="Input.Password"></label>
+            <input asp-for="Input.Password" />
+
+            <label asp-for="Input.ConfirmPassword"></label>
+            <input asp-for="Input.ConfirmPassword" />
+
+            <button type="submit">REGISTER</button>
+
+        </form>
+
+    </body>
+    </html>
