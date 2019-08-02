@@ -1,0 +1,22 @@
+﻿@model CMSDemo.Models.BlobViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Blob</title>
+</head>
+<body>
+
+    <form method="post" enctype="multipart/form-data">
+
+        <label asp-for="Image">Image Upload</label>
+        <input asp-for="Image" type="file" />
+        <button type="submit">SUBMIT</button>
+</form>
+</body>
+</html>
